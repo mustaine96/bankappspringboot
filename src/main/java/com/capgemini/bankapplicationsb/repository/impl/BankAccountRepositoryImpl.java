@@ -1,7 +1,9 @@
 package com.capgemini.bankapplicationsb.repository.impl;
 
-import com.capgemini.bankapplicationsb.repository.BankAccountRepository;
+import org.springframework.stereotype.Repository;
 
+import com.capgemini.bankapplicationsb.repository.BankAccountRepository;
+@Repository
 public class BankAccountRepositoryImpl implements BankAccountRepository {
 
 	@Override

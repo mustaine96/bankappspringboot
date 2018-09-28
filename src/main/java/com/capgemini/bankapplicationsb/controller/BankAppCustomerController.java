@@ -19,6 +19,13 @@ public class BankAppCustomerController {
 	@Autowired
 	private CustomerService custService;
 	
+	@RequestMapping(value="/login",method=RequestMethod.GET)
+	public String login() {
+		return "loginForm";
+	}
+	
+	
+	
 	@RequestMapping(value="/authenticate",method=RequestMethod.POST)
 	public String authenticate(@ModelAttribute Customer customer,HttpSession session,Model model)  {
 		
@@ -68,4 +75,6 @@ public class BankAppCustomerController {
 			 return "homepage" ;
 		 }
 	}
+	
+	
 }

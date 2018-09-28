@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Bank Application</title>
 </head>
 <body>
-
+<h1><a href="/login">Login</a></h1>
 </body>
 </html>

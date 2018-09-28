@@ -1,9 +1,11 @@
 package com.capgemini.bankapplicationsb.repository.impl;
 
+import org.springframework.stereotype.Repository;
+
 import com.capgemini.bankapplicationsb.exceptions.AccountNotFoundException;
 import com.capgemini.bankapplicationsb.model.Customer;
 import com.capgemini.bankapplicationsb.repository.CustomerRepository;
-
+@Repository
 public class CustomerRepositoryImpl implements CustomerRepository {
 
 	@Override
